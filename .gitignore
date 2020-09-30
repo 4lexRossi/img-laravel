@@ -10,3 +10,11 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+ca-key.pem
+ca.pem
+client-cert.pem
+client-key.pem
+private_key.pem
+public_key.pem
+server-cert.pem
+server-key.pem
