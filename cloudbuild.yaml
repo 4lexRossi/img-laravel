@@ -9,7 +9,7 @@ steps:
     args: ['ps']
 
   - id: "Rodando composer"
-    name: 'gcr.io/cloud-builders/docker'
+    name: 'docker/compose'
     args: ['exec', '-t', 'app', 'composer', 'install']
 
   - id: "Copiando .env"
